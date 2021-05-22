@@ -1,0 +1,167 @@
+#HappyCustomers {
+  position: relative;
+}
+
+.coma {
+  min-height: 760px;
+}
+
+#HappyCustomers .title {
+  font-size: 1.375rem;
+  line-height: 1.325em;
+  font-family: Prohibition-Regular;
+  display: block;
+  letter-spacing: 0.095em;
+  margin: 0 auto;
+  padding: 26px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+#HappyCustomers .title:after {
+  background: #cbb26c;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  text-align: center;
+}
+
+#HappyCustomers .image .src {
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  filter: grayscale(100%);
+  opacity: 0.3;
+  z-index: 0; 
+}
+
+#HappyCustomers .comments .text {
+  font-size: 22px;
+  font-size: 1.375rem;
+  color: white;
+
+  font-size: calc(18px + 4 * ((100vw - 420px) / 860));
+  font-size: calc(1.125rem + 4 * ((100vw - 26.25rem) / 860));
+  line-height: 1.375em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+#HappyCustomers .comments .text {
+  font-size: 22px;
+  font-size: 1.375rem;
+  color: white;
+
+  font-size: calc(18px + 4 * ((100vw - 420px) / 860));
+  font-size: calc(1.125rem + 4 * ((100vw - 26.25rem) / 860));
+  line-height: 1.375em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+#HappyCustomers .person {
+  font-size: 0.8125rem;
+  line-height: 1.35em;
+  font-family: Prohibition-Regular;
+  color: #cab884;
+  display: block;
+  letter-spacing: 0.075em;
+  margin-top: 35px;
+  padding-left: 32px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+#HappyCustomers .person::after {
+  background: #cab884;
+  content: "";
+  top: 9px;
+  left: 0;
+  position: absolute;
+  width: 18px;
+  height: 1px;
+}
+#HappyCustomers .comments {
+  position: relative;
+}
+
+
+.image-btn-holder{position: relative; z-index: 22;}
+
+.image-btn{width: 80px; height: 80px; margin: 0 1px; color:#cab884; ;}
+
+#HappyCustomers .comments::before {
+  background: transparent url(https://playersacademy.com/wp-content/themes/playersacademy/media/dist/img/testimonials-speechmark.svg) no-repeat 50%/40px 41px;
+  content: "";
+  position: absolute;
+  top: -25px;
+  display: block;
+  width: 50px;
+    height: 50px;
+}
+
+#HappyCustomers .image {
+  margin-left: 0;
+  width: calc(50% + 250px);
+  height: 760px;
+  padding: 0;
+  top: 150px;
+  left: calc(50% - 250px);
+  position: absolute;
+  z-index: 0;
+}
+
+#HappyCustomers .comments {
+  border: 2px solid #cab884;
+  max-width: calc(50% + 150px);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  perspective: 1000;
+  will-change: auto;
+  z-index: 1;
+}
+#HappyCustomers .image {
+  margin-left: 0;
+  width: 100%;
+  height: 760px;
+  padding: 20px;
+  top: 200px;
+  left: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+
+@media (min-width: 1025px) {
+  #HappyCustomers .image {
+    width: calc(50% + 250px);
+    left: calc(50% - 250px);
+    
+  }
+
+  /* #HappyCustomers .comments {
+    border: 2px solid #cab884;
+    max-width: calc(50% + 150px);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    perspective: 1000;
+    will-change: auto;
+    z-index: 1;
+  } */
+}

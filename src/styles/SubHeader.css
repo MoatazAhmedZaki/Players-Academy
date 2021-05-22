@@ -1,0 +1,23 @@
+#sub-header {
+  background-color: black;
+  text-align: center;
+}
+
+#sub-header h2 {
+  font-family: Prohibition-Regular;
+  color: #cbb26c;
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 1.325em;
+  letter-spacing: 0.075em;
+  margin-bottom: 20px;
+}
+#sub-header h2 span {
+  color: white;
+}
+
+#sub-header p {
+  font-family: Matter-Regular;
+  color: white;
+  font-size: 1.375rem;
+}

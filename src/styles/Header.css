@@ -1,0 +1,395 @@
+.header {
+  /* background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  min-height: 100vh;
+  width: 100vw;
+  padding-top: 80px; */
+  /* transition: 1s all; */
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding-top: 80px;
+  z-index: 2;
+  background-color: black;
+  /* overflow-x: hidden; */
+}
+
+#header .my-bg {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  min-height: 100vh;
+  width: 100vw;
+  transition: 1s all;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#header .header-caption {
+  padding-top: 3rem;
+  margin-top: 3rem;
+  z-index: 10;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ .header .upper {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.35em;
+  font-family: Prohibition-Regular;
+  display: block;
+  letter-spacing: 0.135em;
+  margin-bottom: 8px;
+  padding-left: 11px;
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+}
+
+.header .upper:before {
+  background: #cbb26c;
+  content: "";
+  top: 4px;
+  left: 0;
+  position: absolute;
+  width: 2px;
+  height: 11px;
+}
+
+.header .title {
+  font-size: 7.75rem;
+  font-weight: 400;
+
+  line-height: 0.9em;
+  font-family: Prohibition-Regular;
+  margin: 0 0 16px -4px;
+  text-transform: uppercase;
+}
+
+.header .description {
+  font-size: 1.375rem;
+  color: #999;
+  margin: 4px 0 1px;
+  font-family: Matter-Regular;
+}
+
+.header .color1 {
+  color: #cbb26c;
+}
+.header .color2 {
+  color: white;
+}
+
+.header .title3 {
+  font-size: 1.375rem;
+  font-family: Prohibition-Regular;
+  color: white;
+  text-transform: uppercase;
+  /* line-height: 1.375em; */
+  letter-spacing: 0.1em;
+}
+
+.header .header-caption button {
+  margin-top: 20px;
+  font-family: Matter-SemiBold;
+  font-size: 11px;
+  font-size: 0.6875rem;
+  background-color: transparent;
+
+  border: 1px solid #cbb26c;
+  border-radius: 100px;
+  color: #fff;
+
+  min-height: 64px;
+
+  letter-spacing: 0.185em;
+  text-transform: uppercase;
+  outline: none;
+  position: relative;
+  padding: 0 40px;
+  text-decoration: none !important;
+  z-index: 4;
+}
+
+.header .header-caption button::after {
+  content: "";
+  padding: 0 40px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #cbb26c;
+  border-radius: 100px;
+  z-index: -1;
+  border: 5px solid black;
+}
+
+@media (min-width: 1025px) {
+  .header {
+    padding-left: 100px;
+  }
+}
+
+.header .test {
+  border: 2px solid transparent;
+  background-size: cover;
+  width: 213px;
+  max-height: 213px;
+  background-position: center;
+}
+
+.header .test2 {
+  transition: 1s all;
+  width: 213px;
+}
+
+.header .fig {
+  position: relative;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.header .fig video {
+  height: 100%;
+  width: 100%;
+
+
+
+}
+
+.header .fig .thum-caption {
+  position: absolute;
+  transition: 1s all;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header .fig .title1 {
+  font-size: 15px;
+  color: white;
+  line-height: 1.35em;
+  margin: 0;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-family: Matter-Regular;
+}
+
+.header .fig .title2 {
+  font-size: 15px;
+  color: #cbb26c;
+  line-height: 1.35em;
+  margin: 0;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-family: Matter-Regular;
+}
+
+.header .fig img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 1s all;
+}
+
+.header .fig:hover .img2 {
+  opacity: 0;
+  transition: 1s all;
+}
+
+.header .prog {
+  background-color: transparent;
+  color: white;
+  margin-left: auto;
+}
+
+.header .marker {
+  background: hsla(0, 0%, 100%, 0.3);
+  height: 1px;
+  width: 400px;
+  transition: 1s all;
+}
+
+.header .line {
+  background: #cbb26c;
+  height: 1px;
+  transition: 1s all;
+}
+
+.header .fig:before,
+.header .fig:after {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  transition: all 0.25s;
+}
+
+.header .test2:before {
+  border-bottom: 2px solid #cbb26c;
+  border-left: 2px solid #cbb26c;
+  width: 105%;
+  height: 108%;
+  left: -5px;
+  bottom: -5px;
+  animation-name: mymove2;
+  animation-duration: 1s;
+}
+
+.header .test2:after {
+  border-top: 2px solid #cbb26c;
+  border-right: 2px solid #cbb26c;
+  width: 104%;
+  height: 108%;
+  top: -5px;
+  right: -5px;
+  animation-name: mymove;
+  animation-duration: 1s;
+}
+
+@keyframes mymove {
+  from {
+    width: 0%;
+    height: 0%;
+  }
+  to {
+    width: 104%;
+    height: 108%;
+  }
+}
+
+@keyframes mymove2 {
+  from {
+    width: 0%;
+    height: 0%;
+  }
+  to {
+    width: 105%;
+    height: 108%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+}
+
+@media screen and (max-width: 992px) {
+  .header  .header-caption {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    padding-top: 95px;
+  }
+
+  .header-caption {
+    padding: 0;
+    margin: 0 20px;
+  }
+  .header .upper {
+    font-size: 20px !important;
+  }
+
+  .header .upper:before {
+    top: 6px;
+    height: 15px;
+  }
+
+  .header .title {
+    font-size: 60px;
+    line-height: 50px;
+  }
+
+  .header .title3 {
+    font-size: 30px;
+  }
+
+  .header .title3 {
+    font-size: 30px;
+  }
+
+  .header .description {
+    font-size: 22.5px;
+  }
+
+  .header .header-caption button {
+    padding: 0 20px;
+    font-size: 13px;
+  }
+
+  .header  .thum-caption {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .header {
+    padding-top: 85px;
+  }
+
+  .header-caption {
+    padding: 0;
+    margin: 0 20px;
+  }
+  .header .upper {
+    font-size: 10px !important;
+  }
+
+  .header  .upper:before {
+    top: 2px;
+    height: 7px;
+  }
+
+  .header .title {
+    font-size: 40px;
+    line-height: 30px;
+  }
+
+  .header .title3 {
+    font-size: 20px;
+  }
+
+  .header .title3 {
+    font-size: 20px;
+  }
+
+  .header .description {
+    font-size: 15px;
+  }
+
+  .header .header-caption button {
+    padding: 0 20px;
+    font-size: 9px;
+  }
+
+  .header .thum-caption {
+    display: none !important;
+  }
+}
+
+.header .header-trans {
+  color: white !important;
+  font-size: 0.8125rem;
+  font-family: Prohibition-Regular;
+  color: #fff;
+  letter-spacing: 0.1625em;
+  bottom: 50%;
+  right: -100px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}

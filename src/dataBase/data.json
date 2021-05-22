@@ -1,0 +1,45 @@
+[
+  {
+    "data_id": "1",
+    "upper": "Available now",
+    "MainImg": "https://playersacademy.com/wp-content/uploads/2020/09/tom-rom_center-align.jpg",
+    "title1": "BUNDLE ",
+    "title2": "& SAVE",
+    "title3": "",
+    "Description": "Both Tom Schreiber & Rob Pannell's Courses for ",
+    "plusDescription": "$124.98",
+    "btn": "View bundle | $124.98",
+    "link": "https://moatazahmedzaki.github.io/Covid-19/",
+    "video": "https://playersacademy.com/wp-content/uploads/2019/08/MENTAL-PREP-AND-APPROACH_2-1.mp4"
+  },
+
+  {
+    "data_id": "2",
+    "upper": "Available now",
+    "MainImg": "https://playersacademy.com/wp-content/uploads/2020/06/16Z8867-scaled.jpg",
+    "title1": "Tom",
+    "title2": "Schreiber",
+    "title3": "Learn How To Gain An Edge",
+
+    "Description": " Order now and get instant access to  ",
+    "plusDescription": "8 expert classes",
+    "btn": "View course",
+
+    "link": "https://moatazahmedzaki.github.io/Covid-19/",
+    "video": "https://playersacademy.com/wp-content/uploads/2020/06/TS_Teaser-Clip_16x9.mp4"
+  },
+
+  {
+    "data_id": "3",
+    "upper": "Welcome to the",
+    "MainImg": "https://playersacademy.com/wp-content/uploads/2020/05/soccer-e1588879913499.jpg",
+    "title1": "Players",
+    "title2": "Academy",
+    "title3": "Professional athlete experiences",
+    "Description": "Sign up Today and receive exclusive courses from world class athletes ",
+    "plusDescription": "",
+    "btn": "View course",
+    "link": "https://moatazahmedzaki.github.io/Covid-19/",
+    "video": ""
+  }
+]

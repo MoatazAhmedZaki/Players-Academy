@@ -1,0 +1,149 @@
+.LatestPosts {
+  color: white;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+  padding-bottom: 160px;
+}
+
+.LatestPosts h4 {
+  font-size: 60px;
+  font-family: Prohibition-Regular;
+}
+
+.LatestPosts .view-all {
+  font-size: 14;
+  font-family: Prohibition-Regular;
+  color: white;
+  text-transform: uppercase;
+}
+
+.LatestPosts .view-all i {
+  color: #cab884;
+}
+
+.LatestPosts .containerr {
+  transition: transform 0.4s ease-in;
+  /* min-width: 2000px; */
+  scroll-behavior: smooth;
+  /* overflow: hidden; */
+  white-space: nowrap; /*Prevents Wrapping*/
+  margin-right: unset;
+
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+}
+.LatestPosts .containerr .slide {
+  display: inline-block; /*Display inline and maintain block characteristics.*/
+  vertical-align: top; /*Makes sure all the divs are correctly aligned.*/
+  white-space: normal; /*Prevents child elements from inheriting nowrap.*/
+  width: 400px;
+  padding: 7px;
+  max-height: 570px;
+}
+
+.LatestPosts .containerr .slide .img-holder {
+  overflow: hidden;
+}
+.LatestPosts .containerr .slide:hover .img-holder img {
+  transform: scale(1.04);
+  transition: all 0.4s;
+}
+
+.LatestPosts .containerr .slide .img-holder img {
+  transition: all 0.4s;
+}
+
+.LatestPosts .containerr .slide:nth-of-type(2n + 2) .img-holder {
+  max-height: 310px;
+  width: 100%;
+}
+
+.LatestPosts .posts-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: white;
+  background-color: hsla(0, 0%, 100%, 0.12);
+  margin-right: 10px;
+}
+
+.LatestPosts .containerr .slide:hover .slide-caption .slide-caption-type {
+  color: black;
+}
+
+.LatestPosts .containerr .slide .slide-caption .slide-caption-type {
+  font-family: Prohibition-Regular;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  color: #fff;
+  display: inline-block;
+  letter-spacing: 0.075em;
+  position: relative;
+  transition: all 1s;
+
+  z-index: 1;
+
+  padding: 0 7px;
+}
+
+.LatestPosts .containerr .slide .slide-caption .slide-caption-type:before {
+  background: #cab884;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  transition: width 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  z-index: -1;
+}
+
+.LatestPosts
+  .containerr
+  .slide:hover
+  .slide-caption
+  .slide-caption-type:before {
+  width: 100%;
+}
+
+.LatestPosts .containerr .slide .slide-caption .slide-caption-date {
+  font-size: 0.875rem;
+  font-family: Matter-Regular;
+
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.LatestPosts .containerr .slide .slide-caption .slide-caption-title {
+  font-size: 2rem;
+  font-family: Prohibition-Regular;
+  line-height: 1.225em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.LatestPosts .marker {
+  background: hsla(0, 0%, 100%, 0.3);
+  height: 1px;
+  width: 400px;
+  transition: 1s all;
+  overflow: hidden;
+}
+
+.LatestPosts .line {
+  background: #cbb26c;
+  height: 1px;
+  transition: 1s all;
+}
+
+@media screen and (min-width: 992px) {
+  .LatestPosts .containerr {
+    padding: 0px 150px 0px 200px;
+  }
+
+  .LatestPosts .containerr .slide {
+    width: 440px;
+
+    padding: 10px 60px 0px 10px;
+  }
+}

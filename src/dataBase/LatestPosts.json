@@ -1,0 +1,60 @@
+[
+  {
+    "data_id": "1",
+    "img": "https://playersacademy.com/wp-content/uploads/2020/06/16Z8866-480x500.jpg",
+    "caption": "Enter to Win a Warrior EVO QX Carbon Shaft",
+    "type": "news",
+
+    "date": "12.13.2020"
+  },
+  {
+    "data_id": "2",
+    "img": "https://playersacademy.com/wp-content/uploads/2020/09/tom-rom_left-align-480x500.jpg",
+    "caption": "Win a FREE Players Academy Course",
+    "type": "news",
+    "date": "12.11.2020"
+  },
+
+  {
+    "data_id": "3",
+    "img": "https://playersacademy.com/wp-content/uploads/2020/09/PLA076_Michael_Ehrhardt_Announcement_16x9-1-2-480x500.jpg",
+    "caption": "PLL Champ Michael Ehrhardt Signs With Players Academy For Defensive Course",
+    "type": "news",
+    "date": "09.02.2020"
+  },
+  {
+    "data_id": "4",
+    "img": "https://playersacademy.com/wp-content/uploads/2020/05/tom-schreiber-usa-canada-adam-scott-480x500.png",
+    "caption": "Meet Your New Coach, Tom Schreiber",
+    "type": "news",
+    "date": "05.28.2020"
+  },
+  {
+    "data_id": "5",
+    "img": "https://playersacademy.com/wp-content/uploads/2020/05/956de6_fc0636e9272f45a7936c28e754b6a61c_mv2_d_2664_1776_s_2-480x500.jpg",
+    "caption": "Have Your Highlight Reel Edited by Players Academy",
+    "type": "news",
+    "date": "05.27.2020"
+  },
+  {
+    "data_id": "6",
+    "img": "https://playersacademy.com/wp-content/uploads/2020/04/PLA013_WarriorHead2Contest_1920x1080-480x500.jpg",
+    "caption": "The Importance of Having a Good Pocket",
+    "type": "news",
+    "date": "04.21.2020"
+  },
+  {
+    "data_id": "7",
+    "img": "https://playersacademy.com/wp-content/uploads/2020/04/Screenshot-62-480x500.png",
+    "caption": "Attacking the Defense: Pre-Dodge Spacing",
+    "type": "news",
+    "date": "04.21.2020"
+  },
+  {
+    "data_id": "8",
+    "img": "  https://playersacademy.com/wp-content/uploads/2020/04/UH4A3852-1-480x500.jpg",
+    "caption": "Bigger, Faster, Stronger: Renegade Rows",
+    "type": "news",
+    "date": "04.21.2020"
+  }
+]

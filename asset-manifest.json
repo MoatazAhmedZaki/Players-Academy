@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Players-Academy/static/css/main.f40a99ba.chunk.css",
-    "main.js": "/Players-Academy/static/js/main.98bbb594.chunk.js",
-    "main.js.map": "/Players-Academy/static/js/main.98bbb594.chunk.js.map",
+    "main.css": "/Players-Academy/static/css/main.3bcc2fd9.chunk.css",
+    "main.js": "/Players-Academy/static/js/main.de320a3e.chunk.js",
+    "main.js.map": "/Players-Academy/static/js/main.de320a3e.chunk.js.map",
     "runtime-main.js": "/Players-Academy/static/js/runtime-main.5441ea46.js",
     "runtime-main.js.map": "/Players-Academy/static/js/runtime-main.5441ea46.js.map",
     "static/js/2.e6238775.chunk.js": "/Players-Academy/static/js/2.e6238775.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.37353c41.chunk.js": "/Players-Academy/static/js/3.37353c41.chunk.js",
     "static/js/3.37353c41.chunk.js.map": "/Players-Academy/static/js/3.37353c41.chunk.js.map",
     "index.html": "/Players-Academy/index.html",
-    "static/css/main.f40a99ba.chunk.css.map": "/Players-Academy/static/css/main.f40a99ba.chunk.css.map",
+    "static/css/main.3bcc2fd9.chunk.css.map": "/Players-Academy/static/css/main.3bcc2fd9.chunk.css.map",
     "static/js/2.e6238775.chunk.js.LICENSE.txt": "/Players-Academy/static/js/2.e6238775.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Players-Academy/static/media/Prohibition-Regular.2fa3a41b.woff2",
     "static/media/logo.023e3b72.svg": "/Players-Academy/static/media/logo.023e3b72.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.5441ea46.js",
     "static/js/2.e6238775.chunk.js",
-    "static/css/main.f40a99ba.chunk.css",
-    "static/js/main.98bbb594.chunk.js"
+    "static/css/main.3bcc2fd9.chunk.css",
+    "static/js/main.de320a3e.chunk.js"
   ]
 }
